@@ -5,4 +5,6 @@ import eventex.core.views
 urlpatterns = [
     path('', eventex.core.views.home),
     path('admin/', admin.site.urls),
+    path('existe/', eventex.core.views.existe, name='existe')
+
 ]
